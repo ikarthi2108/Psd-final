@@ -36,14 +36,14 @@
   
   .image-text-container img {
     width: 100%;
-    height: 80%;
+    height: 70%;
   }
   
   /*develop body text's target*/
   .image-text-container p {
     position: relative;
-    top: -30%;
-    left: 54%;
+    top: -18%;
+    left: 55%;
     transform: translate(-50%, -50%);
     color: rgb(247, 246, 246);
     font-size: 3rem;
@@ -161,28 +161,28 @@
   #circlebg2{
     width: 300px;
      margin-left: 600px;
-     margin-top:-330px;
+     margin-top:-372px;
   }
   #circlebg3{
     width: 300px; 
-    margin-left: 1050px;
-    margin-top:-370px;
+    margin-left: 1000px;
+    margin-top:-420px;
   }
   /*circles top layer and texts*/
   #imgtop1{
     width: 300px; 
     margin-left: 200px;
-    margin-top:-424px;
+    margin-top:-475px;
   }
   #txttop1{
-    margin-left: 1110px;
+    margin-left: 1070px;
     margin-top:-310px;
     color: rgb(248, 248, 248);
     font-family:Old Standard TT;
     filter: brightness(150%);
   }
   #txt1{
-    margin-left: 1070px;
+    margin-left: 1030px;
     margin-top: 10px;
     font-size: 18px;
     color: rgb(251, 250, 250);
@@ -193,7 +193,7 @@
   #imgtop2{
     width: 300px; 
     margin-left: 600px;
-    margin-top:-460px; 
+    margin-top:-500px; 
   }
   #txttop2{
     margin-left: 660px;
@@ -211,8 +211,8 @@
   
   #imgtop3{
     width: 300px; 
-    margin-left: 1050px;
-    margin-top:-485px
+    margin-left: 1000px;
+    margin-top:-530px
   }
   #txttop3{
     margin-left: 270px;
@@ -259,7 +259,7 @@
   /*down will be styles for each p,hr,and img tags respectively for both left and right leaf */
   
   #Lp1{
-    margin-top: -350px;
+    margin-top: -375px;
     margin-left: 420px;
   }
   #Limg1{
@@ -303,15 +303,12 @@
   #Limg4{
     width: 30px;
   }
-  #Lhr4{
-    width: 240px;
-    margin-left: 440px;
-  }
+  
   
   /*Right leafed points*/
   
   #Rp1{
-    margin-top: -820px;
+    margin-top: -800px;
     margin-left: 400px;
   }
   #Rimg1{
@@ -353,16 +350,13 @@
   #Rimg4{
     width: 30px;
   }
-  #Rhr4{
-    width: 240px;
-    margin-left: 440px;
-  }
+ 
   /*End of page 3 */
   
    /*start of page 4 styling*/
    
    #pg4bg1{
-    margin-top:8px;
+    margin-top:20px;
    }
    #pg4bg2{
     margin-top:-1210px;
@@ -560,6 +554,8 @@
   
   #page6bg1{
     margin-top:100px;
+    
+    
   }
   #page6bglayer{
     margin-top: -1050px;
@@ -628,13 +624,13 @@
   #Fimg2{
     width: 50px; 
     margin-top: 30px;
-    margin-left: 60px;
+    margin-left: 20px;
     color: azure;
     font-family: Old Standard TT;
   }
   
   #Fa1{
-    margin-left: 880px;
+    margin-left: 924px;
     text-decoration: none;
     color: azure;
     font-family: Old Standard TT;
