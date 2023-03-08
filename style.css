@@ -7,48 +7,19 @@
   }
   .navbar {
     background-image: url('assests/cropped\ bg.png');
-    background-size: cover; /* Adjust this to your liking */
-    /* background-position: center; Adjust this to your liking */
-    background-color: transparent;
-    padding-top: 20px; /* Adjust this to your liking */
-    padding-bottom: 20px; /* Adjust this to your liking */
-  /* Adjust this to your liking */
+    background-size: cover;
     width: 100%;
-    position: absolute;
   }
-  .navbar-toggler-icon{
-    color: azure;
-    background: #f8f8f8;
-    
-  }
-  
   .social-icons {
     display: flex;
     gap: 1rem;
+    margin-left: 240px;
   }
   .social-icons a {
     color: #f9f8f8;
     font-size: 1.5rem;
   } 
-  .social-icons{
-    margin-left: 240px;
-  } 
-  .off-canvas-bar {
-    position: relative;
-    top: 0;
-    left: -100%;
-    width: 80%;
-    height: 100%;
-    background-color: #f8f8f8;
-    transition: all 0.3s ease-in-out;
-  }
   
-  .logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
   /*nav-bar left text*/
   .navbar-text {
     font-size: 18px;
@@ -59,7 +30,7 @@
   /*image and text1 */
   .image-text-container {
     position: relative;
-    width: 100%;
+  
     font-family: "Old Standard TT";
   }
   
@@ -68,6 +39,7 @@
     height: 80%;
   }
   
+  /*develop body text's target*/
   .image-text-container p {
     position: relative;
     top: -30%;
@@ -78,11 +50,7 @@
     z-index: 1;
   }
   
-  .image-text-container {
-    position: relative;
-    width: 100%;
-  }
-  
+  /*background image*/
   .image {
     height: 900px;
     width: inherit;
@@ -90,34 +58,6 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
-  
-  
-  
-  .icon-row {
-    display: flex;
-    position:inherit;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .icon-text {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-    font-size: 1.5rem;
-    color: white;
-  }
-  
-  .icon-text i {
-    font-size: 1rem;
-    margin-right: 10px;
-  }
-  
-  .icon-text p {
-    margin: 0;
-  }
-  
   
   .navbar-brand {
     position: absolute;
@@ -437,9 +377,9 @@
     margin-left: 1150px;
    }
    #pg4toplayer2{
-    margin-top: -1313px;
-    width: 1550px;
-    height: 1183px;
+    margin-top: -1310px;
+    width: 1557px;
+    height: 1188px;
    }
    #pg4h1{
     margin-top: -1150px;
