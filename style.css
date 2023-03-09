@@ -1,672 +1,750 @@
 .icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    padding: 1rem;
-    margin-left: 1000px;
-  }
-  .navbar {
-    background-image: url('assests/top\ layer\ original.png');
-    background-size: cover;
-    width: 100%;
-  }
-  .social-icons {
-    display: flex;
-    gap: 1rem;
-    margin-left: 240px;
-  }
-  .social-icons a {
-    color: #f9f8f8;
-    font-size: 1.5rem;
-  } 
-  
-  /*nav-bar left text*/
-  .navbar-text {
-    font-size: 18px;
-    font-style: italic;
-    margin-bottom: -90px;
-    font-family: "Montserrat";
-  }
-  /*image and text1 */
-  .image-text-container {
-    position: relative;
-  
-    font-family: "Old Standard TT";
-  }
-  
-  .image-text-container img {
-    width: 100%;
-    height: 70%;
-  }
-  
-  /*develop body text's target*/
-  .image-text-container p {
-    position: relative;
-    top: 52%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    color: rgb(247, 246, 246);
-    font-size: 3rem;
-    z-index: 1;
-  }
-  
-  /*background image*/
-  .image {
-    height: 900px;
-    width: inherit;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .navbar-brand {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  /*page1 our story button*/
-  #story {
-  
-    color: #f8f8f8;
-    border-radius: 35px;
-    width: 40px;
-    border-color: #faf7f7;
-    border-style: solid;
-    text-decoration: none;
-    padding: 10px;
-  }
-  
-  /*section 2*/
-  .section2 {
-    background-image: url('assests/Layer\ 13.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 900px;
-  }
-  /*position of  the leaf logo and text*/
-  .section2 .container {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    color: white;
-    z-index: 1;
-    top:20%;
-  }
-  /*below leaf icon h and p tag*/
-  .section2 h2 {
-    font-size: 3rem;
-  }
-  
-  .section2 p {
-    font-size: 1.5rem;
-  }
-  /*icon leaf*/
-  .section2 {
-    position: relative;
-  }
-  /*leaf icon at the center page2 */
-  .icon-container {
-    position: absolute;
-    top: -6%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  
-  /*section 2 background*/
-  .section2 img {
-    width: 100%;
-    height: auto;
-  }
-  .leftpoints{
-    margin-left: 459px;
-    margin-top: 520px;
-  }
-  /*-------------------------------------------------above is until the inline css applied------- */
-  /*last page text box */
-  ::placeholder{
-    color: rgb(9, 9, 9);
-  }
-  
-  input[type=text]{
-    padding: 12px;
-    margin-left: 750px;
-    margin-top: 60px;
-  }
-  input[type=email]{
-    padding: 12px;
-    margin-left: 20px;
-  }
-  /*section 2 css & page 2*/
-  #yoga1{
-    color: black;
-    font-family: "Old Standard TT";
-  }
-  #linepg2{
-    color:  rgb(245, 9, 9);
-    font-size: 28px;
-    top:16%;
-    font-family: Old Standard TT;
-    
-  }
-  /* cicles styling page 2 */
-  
-  #circlebg1{
-    width: 300px; 
-    margin-left: 200px;
-    margin-top: 200px;
-  }
-  #circlebg2{
-    width: 300px;
-     margin-left: 600px;
-     margin-top:-372px;
-  }
-  #circlebg3{
-    width: 300px; 
-    margin-left: 1000px;
-    margin-top:-420px;
-  }
-  /*circles top layer and texts*/
-  #imgtop1{
-    width: 300px; 
-    margin-left: 200px;
-    margin-top:-475px;
-  }
-  #txttop1{
-    margin-left: 1070px;
-    margin-top:-310px;
-    color: rgb(248, 248, 248);
-    font-family:Old Standard TT;
-    filter: brightness(150%);
-  }
-  #txt1{
-    margin-left: 1030px;
-    margin-top: 10px;
-    font-size: 18px;
-    color: rgb(251, 250, 250);
-    font-family: Montserrat;
-    filter: brightness(150%);
-  }
-  
-  #imgtop2{
-    width: 300px; 
-    margin-left: 600px;
-    margin-top:-500px; 
-  }
-  #txttop2{
-    margin-left: 660px;
-    margin-top: -325px;
-    color: rgb(247, 242, 242);
-    font-family:Old Standard TT;
-  }
-  #txt2{
-    margin-left: 620px;
-    margin-top: 1px;
-    font-size: 18px;
-    color: rgb(251, 242, 242);
-    font-family: Montserrat;
-  }
-  
-  #imgtop3{
-    width: 300px; 
-    margin-left: 1000px;
-    margin-top:-530px
-  }
-  #txttop3{
-    margin-left: 270px;
-    margin-top: -350px;
-    color: rgb(245, 240, 240);
-    font-family:Old Standard TT;
-  }
-  #txt3{
-    margin-left: 220px;
-    margin-top: -0px;
-    font-size: 18px;
-    color: rgb(252, 252, 254);
-    font-family: Montserrat;
-  }/*page 2 css end*/
-  
-  /*page 3 css start*/
-  #leftimg{
-    width: 300px;
-  }
-  #h1pg3{
-    margin-left: 380px;
-    margin-top: -570px;
-    font-size: 60px;
-    font-family: Old Standard TT;
-  }
-  #h2pg3{
-    margin-left: 380px;
-    font-size: 30PX;
-    font-family: Old Standard TT;
-  }
-  #firstpara{
-    margin-left: 380px;
-    padding-top:20px;
-  }
-  #rightbg{
-    margin-top: -270px;
-    height: 610px;
-  }
-  #bgtoplayer{
-    width:300px ;
-    margin-top: -640px;
-  }
-  
-  /*down will be styles for each p,hr,and img tags respectively for both left and right leaf */
-  
-  #Lp1{
-    margin-top: -375px;
-    margin-left: 420px;
-  }
-  #Limg1{
-    width: 30px;
-  }
-  #Lhr1{
-    width: 240px;
-    margin-left: 440px;
-  }
-  
-  #Lp2{
-    margin-top: 30px;
-    margin-left: 420px;
-  }
-  
-  #Limg2{
-    width: 30px;
-  }
-  
-  #Lhr2{
-    width: 240px;
-    margin-left: 440px;
-  }
-  
-  #Lp3{
-    margin-top: 30px;
-    margin-left: 420px;
-  }
-  #Limg3{
-    width: 30px;
-  }
-  #Lhr3{
-    width: 240px;
-    margin-left: 440px;
-  }
-  
-  #Lp4{
-    margin-top: 30px;
-    margin-left: 420px;
-  }
-  #Limg4{
-    width: 30px;
-  }
-  
-  
-  /*Right leafed points*/
-  
-  #Rp1{
-    margin-top: -800px;
-    margin-left: 400px;
-  }
-  #Rimg1{
-    width: 30px;
-  }
-  #Rhr1{
-    width: 240px;
-    margin-left: 440px;
-  }
-  
-  #Rp2{
-    margin-top: 30px;
-    margin-left: 400px;
-  }
-  #Rimg2{
-    width: 30px;
-  }
-  #Rhr2{
-    width: 240px;
-    margin-left: 440px;
-  }
-  
-  #Rp3{
-    margin-top: 30px;
-    margin-left: 400px;
-  }
-  #Rimg3{
-    width: 30px;
-  }
-  #Rhr3{
-    width: 240px;
-    margin-left: 440px;
-  }
-  
-  #Rp4{
-    margin-top: 30px;
-    margin-left: 400px;
-  }
-  #Rimg4{
-    width: 30px;
-  }
- 
-  /*End of page 3 */
-  
-   /*start of page 4 styling*/
-   
-   #pg4bg1{
-    margin-top:20px;
-   }
-   #pg4bg2{
-    margin-top:-1210px;
-    width: 370px;
-    height: 1190px;
-    margin-left: 1150px;
-    
-   }
-   #pg4toplayer{
-    margin-top:-1261px;
-    width: 380px;
-    height: 1190px;
-    margin-left: 1151px;
-   }
-   #pg4toplayer2{
-    margin-top: -1310px;
-    width: 1530px;
-    height: 1188px;
-    
-   }
-   #pg4h1{
-    margin-top: -1150px;
-    color: aliceblue;
-    font-size: 5rem;
-    margin-left: 110px;
-    font-family: Old Standard TT;
-   }
-   #pg4p{
-    color: rgb(254, 124, 3);
-    margin-left: 130px;
-    font-size: 2rem;
-    font-family: Old Standard TT;
-   }
-  
-   #card1{
-    width: 170px;
-    margin-top: 70px;
-    margin-left: 70px;
-   }
-   #card2{
-    width: 170px;
-    margin-top: 70px;
-    margin-left: 70px;
-   }
-   #card3{
-    width: 170px;
-    margin-top: 70px;
-    margin-left: 70px;
-   }
-   #card4{
-    width: 170px;
-    margin-top: 70px;
-    margin-left: 70px;
-   }
-   
-  
-   #pg4pre1{
-    color: aliceblue;
-    font-size: 1.5rem;
-    margin-left: 0px;margin-top: 80px;
-    font-family: Old Standard TT;
-   }
-  
-   #pg4pre2{
-    color: aliceblue;
-    margin-top: 60px;
-    font-size: 1.4rem;
-    margin-left: 25px;
-    font-family: Old Standard TT;
-   }
-  
-   
-  /*End of page 4 styling*/
-  
-  
-  /*page 5 */
-  
-  #pg5bg{
-    margin-top:500px;
-  }
-  
-  #pg5leaf{
-    margin-top: -0px;
-    width: 60px;
-    margin-top: -3000px;
-    margin-left: 710px;
-  }
-  #pg5h1{
-    margin-top: -1450px;
-     margin-left: 180px;
-     font-size: 4.8rem;
-     font-family: Montserrat;
-  }
-  #pg5p{
-    margin-left: 410px;
-    font-size: 2.6rem;
-    font-family: Montserrat;
-  }
-  
-  /*card1*/
-  
-  #card1img{
-    width: 160px;
-    margin-top: 100px;
-    margin-left: 170px;
-  }
-  #card1pre{
-    margin-left: 300px;
-    margin-top: -160px;
-    font-size: large;
-    font-family: Old Standard TT;
-  }
-  #cardhr{
-    width: 280px;
-    margin-left: 360px;
-  }
-  #carddate1{
-    margin-left: 310px;
-    font-family: Old Standard TT;
-  }
-  
-  /*card2*/
-  
-  #card2img{
-    width: 160px;
-    margin-top: 80px;
-    margin-left: 170px;
-  }
-  #card2pre{
-    margin-left: 300px;
-    margin-top: -160px;
-    font-size: large;
-    font-family: Old Standard TT;
-  }
-  #carddate2{
-    margin-left: 310px;
-    font-family: Old Standard TT;
-  }
-  
-  /*card3*/
-  
-  #card3img{
-    width: 160px;
-    margin-top: -690px;
-    margin-left: 790px;
-  }
-  #card3pre{
-    margin-left: 970px;
-    margin-top: -430px;
-    font-size: large;
-    font-family: Old Standard TT;
-  }
-  #card3hr{
-    width: 280px;
-    margin-left: 1030px;
-  }
-  #card3date{
-    margin-left: 980px;
-    font-family: Old Standard TT;
-  }
-  
-  /*card4*/
-  
-  #card4img{
-    width: 160px;
-    margin-top: 80px;
-    margin-left: 790px;
-  }
-  #card4pre{
-    margin-left: 973px;
-    margin-top: -160px;
-    font-size: large;
-    font-family: Old Standard TT;
-  }
-  #card4date{
-    margin-left: 983px;
-    font-family: Old Standard TT;
-  }
-  
-  /*gallery button*/
-  #gallbtn{
-    margin-top: 100px;
-    margin-left: 580px;
-    font-size: 1.6rem;
-    color:  #0d0d0f;
-    border-radius: 350px;
-    background: none;
-    padding-left: 28px;
-    padding-right:28px ;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    text-decoration: black;
-    font-family: Montserrat;
-  }
-  
-  /*page6*/
-  
-  #page6bg1{
-    margin-top:100px;
-  }
-  #page6bglayer{
-    margin-top: -1050px;
-  }
-  #pg6h2{
-    color: aliceblue;
-    font-size: 3.4rem;
-     margin-top: -920px;
-     margin-left: 200px;
-     font-family: Old Standard TT 
-  }
-  #pg6pre1{
-    color: azure;
-    font-size: 1.4rem;
-    margin-top: 40px;
-    margin-left: 130px;
-    font-family: Old Standard TT;
-  }
-  #pg6p1{
-    color: azure;
-    font-size: 1.4rem;
-    margin-left: 120px;
-    font-family: Old Standard TT;
-    margin-top: -20px;
-  }
-  #pg6p2{
-    color: azure;
-    margin-left: 170px;
-    font-family: Old Standard TT;
-  }
-  #page6span{
-    color: rgb(10, 232, 36);
-    font-family: Old Standard TT;
-  }
-  #pg6hh2{
-    color: azure;
-    font-family: Old Standard TT;
-    margin-left: 800px;
-    margin-top: -300px;
-  }
-  #pg6in{
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 1rem;
+  margin-left: 1000px;
+}
+
+.navbar {
+  background-image: url('assests/top\ layer\ original.png');
+  background-size: cover;
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-left: 240px;
+}
+
+.social-icons a {
+  color: #f9f8f8;
+  font-size: 1.5rem;
+}
+
+/*nav-bar left text*/
+.navbar-text {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: -90px;
+  font-family: "Montserrat";
+}
+
+/*image and text1 */
+.image-text-container {
+  position: relative;
+
+  font-family: "Old Standard TT";
+}
+
+.image-text-container img {
+  width: 100%;
+  height: 70%;
+}
+
+/*develop body text's target*/
+.image-text-container p {
+  position: relative;
+  top: 52%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  color: rgb(247, 246, 246);
+  font-size: 3rem;
+  z-index: 1;
+}
+
+/*background image*/
+.image {
+  height: 900px;
+  width: inherit;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*page1 our story button*/
+#story {
+
+  color: #f8f8f8;
+  border-radius: 35px;
+  width: 40px;
+  border-color: #faf7f7;
+  border-style: solid;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/*section 2*/
+.section2 {
+  background-image: url('assests/Layer\ 13.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+
+/*position of  the leaf logo and text*/
+.section2 .container {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 1;
+  top: 20%;
+}
+
+/*below leaf icon h and p tag*/
+.section2 h2 {
+  font-size: 3rem;
+}
+
+.section2 p {
+  font-size: 1.5rem;
+}
+
+/*icon leaf*/
+.section2 {
+  position: relative;
+}
+
+/*leaf icon at the center page2 */
+.icon-container {
+  position: absolute;
+  top: -6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/*section 2 background*/
+.section2 img {
+  width: 100%;
+  height: auto;
+}
+
+.leftpoints {
+  margin-left: 459px;
+  margin-top: 520px;
+}
+
+/*-------------------------------------------------above is until the inline css applied------- */
+/*last page text box */
+::placeholder {
+  color: rgb(9, 9, 9);
+}
+
+input[type=text] {
+  padding: 12px;
+  margin-left: 750px;
+  margin-top: 60px;
+}
+
+input[type=email] {
+  padding: 12px;
+  margin-left: 20px;
+}
+
+/*section 2 css & page 2*/
+#yoga1 {
+  color: black;
+  font-family: "Old Standard TT";
+}
+
+#linepg2 {
+  color: rgb(245, 9, 9);
+  font-size: 28px;
+  top: 16%;
+  font-family: Old Standard TT;
+
+}
+
+/* cicles styling page 2 */
+
+#circlebg1 {
+  width: 300px;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+#circlebg2 {
+  width: 300px;
+  margin-left: 600px;
+  margin-top: -372px;
+}
+
+#circlebg3 {
+  width: 300px;
+  margin-left: 1000px;
+  margin-top: -420px;
+}
+
+/*circles top layer and texts*/
+#imgtop1 {
+  width: 300px;
+  margin-left: 200px;
+  margin-top: -475px;
+}
+
+#txttop1 {
+  margin-left: 1070px;
+  margin-top: -310px;
+  color: rgb(248, 248, 248);
+  font-family: Old Standard TT;
+  filter: brightness(150%);
+}
+
+#txt1 {
+  margin-left: 1030px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgb(251, 250, 250);
+  font-family: Montserrat;
+  filter: brightness(150%);
+}
+
+#imgtop2 {
+  width: 300px;
+  margin-left: 600px;
+  margin-top: -500px;
+}
+
+#txttop2 {
+  margin-left: 660px;
+  margin-top: -325px;
+  color: rgb(247, 242, 242);
+  font-family: Old Standard TT;
+}
+
+#txt2 {
+  margin-left: 620px;
+  margin-top: 1px;
+  font-size: 18px;
+  color: rgb(251, 242, 242);
+  font-family: Montserrat;
+}
+
+#imgtop3 {
+  width: 300px;
+  margin-left: 1000px;
+  margin-top: -530px
+}
+
+#txttop3 {
+  margin-left: 270px;
+  margin-top: -350px;
+  color: rgb(245, 240, 240);
+  font-family: Old Standard TT;
+}
+
+#txt3 {
+  margin-left: 220px;
+  margin-top: -0px;
+  font-size: 18px;
+  color: rgb(252, 252, 254);
+  font-family: Montserrat;
+}
+
+/*page 2 css end*/
+
+/*page 3 css start*/
+#leftimg {
+  width: 300px;
+}
+
+#h1pg3 {
+  margin-left: 380px;
+  margin-top: -570px;
+  font-size: 60px;
+  font-family: Old Standard TT;
+}
+
+#h2pg3 {
+  margin-left: 380px;
+  font-size: 30PX;
+  font-family: Old Standard TT;
+}
+
+#firstpara {
+  margin-left: 380px;
+  padding-top: 20px;
+}
+
+#rightbg {
+  margin-top: -270px;
+  height: 610px;
+}
+
+#bgtoplayer {
+  width: 300px;
+  margin-top: -640px;
+}
+
+/*down will be styles for each p,hr,and img tags respectively for both left and right leaf */
+
+#Lp1 {
+  margin-top: -375px;
+  margin-left: 420px;
+}
+
+#Limg1 {
+  width: 30px;
+}
+
+#Lhr1 {
+  width: 240px;
+  margin-left: 440px;
+}
+
+#Lp2 {
+  margin-top: 30px;
+  margin-left: 420px;
+}
+
+#Limg2 {
+  width: 30px;
+}
+
+#Lhr2 {
+  width: 240px;
+  margin-left: 440px;
+}
+
+#Lp3 {
+  margin-top: 30px;
+  margin-left: 420px;
+}
+
+#Limg3 {
+  width: 30px;
+}
+
+#Lhr3 {
+  width: 240px;
+  margin-left: 440px;
+}
+
+#Lp4 {
+  margin-top: 30px;
+  margin-left: 420px;
+}
+
+#Limg4 {
+  width: 30px;
+}
+
+
+/*Right leafed points*/
+
+#Rp1 {
+  margin-top: -800px;
+  margin-left: 400px;
+}
+
+#Rimg1 {
+  width: 30px;
+}
+
+#Rhr1 {
+  width: 240px;
+  margin-left: 440px;
+}
+
+#Rp2 {
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
+#Rimg2 {
+  width: 30px;
+}
+
+#Rhr2 {
+  width: 240px;
+  margin-left: 440px;
+}
+
+#Rp3 {
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
+#Rimg3 {
+  width: 30px;
+}
+
+#Rhr3 {
+  width: 240px;
+  margin-left: 440px;
+}
+
+#Rp4 {
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
+#Rimg4 {
+  width: 30px;
+}
+
+/*End of page 3 */
+
+/*start of page 4 styling*/
+
+#pg4bg1 {
+  margin-top: 20px;
+}
+
+#pg4bg2 {
+  margin-top: -1210px;
+  width: 370px;
+  height: 1190px;
+  margin-left: 1150px;
+
+}
+
+#pg4toplayer {
+  margin-top: -1261px;
+  width: 380px;
+  height: 1190px;
+  margin-left: 1151px;
+}
+
+#pg4toplayer2 {
+  margin-top: -1310px;
+  width: 1530px;
+  height: 1188px;
+
+}
+
+#pg4h1 {
+  margin-top: -1150px;
+  color: aliceblue;
+  font-size: 5rem;
+  margin-left: 110px;
+  font-family: Old Standard TT;
+}
+
+#pg4p {
+  color: rgb(254, 124, 3);
+  margin-left: 130px;
+  font-size: 2rem;
+  font-family: Old Standard TT;
+}
+
+#card1 {
+  width: 170px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+#card2 {
+  width: 170px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+#card3 {
+  width: 170px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+#card4 {
+  width: 170px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+
+#pg4pre1 {
+  color: aliceblue;
+  font-size: 1.5rem;
+  margin-left: 0px;
+  margin-top: 80px;
+  font-family: Old Standard TT;
+}
+
+#pg4pre2 {
+  color: aliceblue;
+  margin-top: 60px;
+  font-size: 1.4rem;
+  margin-left: 25px;
+  font-family: Old Standard TT;
+}
+
+
+/*End of page 4 styling*/
+
+
+/*page 5 */
+
+#pg5bg {
+  margin-top: 500px;
+}
+
+#pg5leaf {
+  margin-top: -0px;
+  width: 60px;
+  margin-top: -3000px;
+  margin-left: 710px;
+}
+
+#pg5h1 {
+  margin-top: -1450px;
+  margin-left: 180px;
+  font-size: 4.8rem;
+  font-family: Montserrat;
+}
+
+#pg5p {
+  margin-left: 410px;
+  font-size: 2.6rem;
+  font-family: Montserrat;
+}
+
+/*card1*/
+
+#card1img {
+  width: 160px;
+  margin-top: 100px;
+  margin-left: 170px;
+}
+
+#card1pre {
+  margin-left: 300px;
+  margin-top: -160px;
+  font-size: large;
+  font-family: Old Standard TT;
+}
+
+#cardhr {
+  width: 280px;
+  margin-left: 360px;
+}
+
+#carddate1 {
+  margin-left: 310px;
+  font-family: Old Standard TT;
+}
+
+/*card2*/
+
+#card2img {
+  width: 160px;
+  margin-top: 80px;
+  margin-left: 170px;
+}
+
+#card2pre {
+  margin-left: 300px;
+  margin-top: -160px;
+  font-size: large;
+  font-family: Old Standard TT;
+}
+
+#carddate2 {
+  margin-left: 310px;
+  font-family: Old Standard TT;
+}
+
+/*card3*/
+
+#card3img {
+  width: 160px;
+  margin-top: -690px;
+  margin-left: 790px;
+}
+
+#card3pre {
+  margin-left: 970px;
+  margin-top: -430px;
+  font-size: large;
+  font-family: Old Standard TT;
+}
+
+#card3hr {
+  width: 280px;
+  margin-left: 1030px;
+}
+
+#card3date {
+  margin-left: 980px;
+  font-family: Old Standard TT;
+}
+
+/*card4*/
+
+#card4img {
+  width: 160px;
+  margin-top: 80px;
+  margin-left: 790px;
+}
+
+#card4pre {
+  margin-left: 973px;
+  margin-top: -160px;
+  font-size: large;
+  font-family: Old Standard TT;
+}
+
+#card4date {
+  margin-left: 983px;
+  font-family: Old Standard TT;
+}
+
+/*gallery button*/
+#gallbtn {
+  margin-top: 100px;
+  margin-left: 580px;
+  font-size: 1.6rem;
+  color: #0d0d0f;
+  border-radius: 350px;
+  background: none;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-decoration: black;
+  font-family: Montserrat;
+}
+
+/*page6*/
+
+#page6bg1 {
+  margin-top: 100px;
+}
+
+#page6bglayer {
+  margin-top: -1050px;
+}
+
+#pg6h2 {
+  color: aliceblue;
+  font-size: 3.4rem;
+  margin-top: -920px;
+  margin-left: 200px;
+  font-family: Old Standard TT
+}
+
+#pg6pre1 {
+  color: azure;
+  font-size: 1.4rem;
+  margin-top: 40px;
+  margin-left: 130px;
+  font-family: Old Standard TT;
+}
+
+#pg6p1 {
+  color: azure;
+  font-size: 1.4rem;
+  margin-left: 120px;
+  font-family: Old Standard TT;
+  margin-top: -20px;
+}
+
+#pg6p2 {
+  color: azure;
+  margin-left: 170px;
+  font-family: Old Standard TT;
+}
+
+#page6span {
+  color: rgb(10, 232, 36);
+  font-family: Old Standard TT;
+}
+
+#pg6hh2 {
+  color: azure;
+  font-family: Old Standard TT;
+  margin-left: 800px;
+  margin-top: -300px;
+}
+
+#pg6in {
   padding-right: 245px;
-    padding-bottom: 100px;
-    margin-top: 7px;
-  }
-  
-  #pg6btn{
-    margin-top: 30px;
-    margin-left: 750px;
-    font-size: 1.6rem;
-    color:  #f7f7f8;
-    border-radius: 350px;
-    border-color: #f7f7f8; 
-    background: none;
-    padding-left: 28px;
-    padding-right:28px ;
-    padding-top: 8px;
-    padding-bottom: 8px;
-     text-decoration: rgb(246, 241, 241);
-  }
-  
-  /*footer*/
-  #Fimg1{
-    margin-top: 340px;
-  }
-  #Fimg2{
-    width: 50px; 
-    margin-top: 30px;
-    margin-left: 20px;
-    color: azure;
-    font-family: Old Standard TT;
-  }
-  
-  #Fa1{
-    margin-left: 924px;
-    text-decoration: none;
-    color: azure;
-    font-family: Old Standard TT;
-  }
-  #Fa2{
-    margin-left: 20px;
-    text-decoration: none;
-    color: azure;
-    font-family: Old Standard TT;
-  }
-  #Fa3{
-    margin-left: 20px;
-    text-decoration: none;
-    color: azure;
-    font-family: Old Standard TT;
-  }
-  #Fa4{
-    margin-left: 20px;
-    text-decoration: none;
-    color: azure;
-    font-family: Old Standard TT;
-  }
-  #Fa5{
-    margin-left: 20px;
-    text-decoration: none;
-    color: azure;
-    font-family: Old Standard TT;
-  }
-  #Fp1{
-    color: azure;
-    font-family: Old Standard TT;
-    font-size: medium;
-    margin-left: 1100px;
-    margin-top: -30px;
-  }
-  body{
-    overflow-x: hidden;
-  }
- 
+  padding-bottom: 100px;
+  margin-top: 7px;
+}
+
+#pg6btn {
+  margin-top: 30px;
+  margin-left: 750px;
+  font-size: 1.6rem;
+  color: #f7f7f8;
+  border-radius: 350px;
+  border-color: #f7f7f8;
+  background: none;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-decoration: rgb(246, 241, 241);
+}
+
+/*footer*/
+#Fimg1 {
+  margin-top: 340px;
+}
+
+#Fimg2 {
+  width: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: azure;
+  font-family: Old Standard TT;
+}
+
+#Fa1 {
+  margin-left: 924px;
+  text-decoration: none;
+  color: azure;
+  font-family: Old Standard TT;
+}
+
+#Fa2 {
+  margin-left: 20px;
+  text-decoration: none;
+  color: azure;
+  font-family: Old Standard TT;
+}
+
+#Fa3 {
+  margin-left: 20px;
+  text-decoration: none;
+  color: azure;
+  font-family: Old Standard TT;
+}
+
+#Fa4 {
+  margin-left: 20px;
+  text-decoration: none;
+  color: azure;
+  font-family: Old Standard TT;
+}
+
+#Fa5 {
+  margin-left: 20px;
+  text-decoration: none;
+  color: azure;
+  font-family: Old Standard TT;
+}
+
+#Fp1 {
+  color: azure;
+  font-family: Old Standard TT;
+  font-size: medium;
+  margin-left: 1100px;
+  margin-top: -30px;
+}
+
+body {
+  overflow-x: hidden;
+}
